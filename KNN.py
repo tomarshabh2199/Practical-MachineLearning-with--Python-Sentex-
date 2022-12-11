@@ -1,5 +1,5 @@
 import numpy as np
-from sklearn import preprocessing, neighbors,svm
+from sklearn import preprocessing, neighbors, svm
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
@@ -25,3 +25,4 @@ example_measures=example_measures.reshape(len(example_measures),-1)
 
 prediction=clf.predict(example_measures)
 print(prediction)
+  
